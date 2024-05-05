@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Elements</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Tutorial de HTML</a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Início</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="../topics/basic.html">HTML Basic</a></li>
+                <li><a href="../topics/elements.html">HTML Elements</a></li>
+                <li><a href="../topics/attributes.html">HTML Attributes</a></li>
+                <li><a href="../topics/headings.html">HTML Headings</a></li>
+                <li><a href="../topics/paragraphs.html">HTML Paragraphs</a></li>
+                <li><a href="../topics/styles.html">HTML Styles</a></li>
+                <li><a href="../topics/formatting.html">HTML Formatting</a></li>
+                <li><a href="../topics/quotations.html">HTML Quotations</a></li>
+                <li><a href="../topics/comments.html">HTML Comments</a></li>
+                <li><a href="../topics/colors.html">HTML Colors</a></li>
+                <li><a href="../topics/links.html">HTML Links</a></li>
+                <li><a href="../topics/favicon.html">HTML Favicon</a></li>
+                <li><a href="../topics/table.html">HTML Table</a></li>
+                <li><a href="../topics/list.html">HTML List</a></li>
+                <li><a href="../topics/block_inline.html">HTML Block & Inline</a></li>
+                <li><a href="../topics/div.html">HTML Div</a></li>
+                <li><a href="../topics/classes.html">HTML Classes</a></li>
+                <li><a href="../topics/id.html">HTML Id</a></li>
+                <li><a href="../topics/iframes.html">HTML Iframes</a></li>
+                <li><a href="../topics/javascript.html">HTML JavaScript</a></li>
+                <li><a href="../topics/semantics.html">HTML Semantics</a></li>
+                <li><a href="../topics/styleguide.html">HTML Style Guide</a></li>
+                <li><a href="../topics/entities.html">HTML Entities</a></li>
+                <li><a href="../topics/symbols.html">HTML Symbols</a></li>
+                <li><a href="../topics/emojis.html">HTML Emojis</a></li>
+                <li><a href="../topics/charsets.html">HTML Charsets</a></li>
+                <li><a href="../topics/urlencode.html">HTML URL Encode</a></li>
+                <li><a href="../topics/htmlVSxhtml.html">HTML vs XHTML</a></li>
+                <li><a href="../topics/forms.html">HTML Forms</a></li>
+                <li><a href="../topics/formattributes.html">HTML Form Attributes</a></li>
+                <li><a href="../topics/formelements.html">HTML Form Elements</a></li>
+                <li><a href="../topics/inputtypes.html">HTML Input Types</a></li>
+                <li><a href="../topics/inputattributes.html">HTML Input Attributes</a></li>
+                <li><a href="../topics/I-F-attributes.html">Input Form Attributes</a></li>
+                <li><a href="../topics/canvas.html">HTML Canvas</a></li>
+                <li><a href="../topics/svg.html">HTML SVG</a></li>
+                <li><a href="../topics/media.html">HTML Media</a></li>
+                <li><a href="../topics/video.html">HTML Video</a></li>
+                <li><a href="../topics/audio.html">HTML Audio</a></li>
+                <li><a href="../topics/drag_drop.html">HTML Drag/Drop</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1>HTML Form Elements</h1>
+            <p>Os elementos do formulário HTML são usados para coletar diferentes tipos de entrada do usuário.</p>
+            
+            <h2>Exemplos de Elementos de Formulário</h2>
+            
+            <h3>Input Text</h3>
+            <p>O elemento <code>input type="text"</code> é usado para campos de texto únicos.</p>
+            <pre>
+                <code>
+                    &lt;input type="text" name="username" id="username"&gt;
+                </code>
+            </pre>
+            
+            <h3>Input Password</h3>
+            <p>O elemento <code>input type="password"</code> é usado para senhas.</p>
+            <pre>
+                <code>
+                    &lt;input type="password" name="password" id="password"&gt;
+                </code>
+            </pre>
+            
+            <h3>Textarea</h3>
+            <p>O elemento <code>textarea</code> é usado para campos de texto longo.</p>
+            <pre>
+                <code>
+                    &lt;textarea name="message" id="message" rows="4" cols="50"&gt;&lt;/textarea&gt;
+                </code>
+            </pre>
+            
+            <h3>Radio Buttons</h3>
+            <p>O elemento <code>input type="radio"</code> é usado para botões de rádio.</p>
+            <pre>
+                <code>
+                    &lt;input type="radio" name="gender" id="male" value="male"&gt;
+                    &lt;label for="male"&gt;Masculino&lt;/label&gt;&lt;br&gt;
+
+                    &lt;input type="radio" name="gender" id="female" value="female"&gt;
+                    &lt;label for="female"&gt;Feminino&lt;/label&gt;&lt;br&gt;
+                </code>
+            </pre>
+            
+            <h3>Checkboxes</h3>
+            <p>O elemento <code>input type="checkbox"</code> é usado para caixas de seleção.</p>
+            <pre>
+                <code>
+                    &lt;input type="checkbox" name="vehicle1" id="car1" value="car1"&gt;
+                    &lt;label for="car1"&gt;Carro&lt;/label&gt;&lt;br&gt;
+
+                    &lt;input type="checkbox" name="vehicle2" id="car2" value="car2"&gt;
+                    &lt;label for="car2"&gt;Moto&lt;/label&gt;&lt;br&gt;
+                </code>
+            </pre>
+            
+            <h3>Select Dropdown</h3>
+            <p>O elemento <code>select</code> é usado para menus suspensos.</p>
+            <pre>
+                <code>
+                    &lt;select name="cars" id="cars"&gt;
+                        &lt;option value="volvo"&gt;Volvo&lt;/option&gt;
+                        &lt;option value="saab"&gt;Saab&lt;/option&gt;
+                        &lt;option value="fiat"&gt;Fiat&lt;/option&gt;
+                        &lt;option value="audi"&gt;Audi&lt;/option&gt;
+                    &lt;/select&gt;
+                </code>
+            </pre>
+        </div>
+    </div>
+</body>
+</html>
