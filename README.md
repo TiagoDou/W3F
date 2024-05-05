@@ -10,4 +10,4 @@ It came out pretty nice, i am hapy with the final result!
 
 here is a link to the working website:
 
-[https://w3fatec.netlify.app](url)
+([W3Fatec](https://w3fatec.netlify.app))
